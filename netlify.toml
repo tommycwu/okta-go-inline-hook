@@ -6,6 +6,6 @@
   # Change this path with the path to your repository
   GO_IMPORT_PATH = "github.com/tommycwu/okta-go-event-hook"
 [[redirects]]
-  from = "/userTransfer/*"
-  to = "/.netlify/functions/hello-lambda/:splat"
+  from = "/samlhook/*"
+  to = "/.netlify/functions/inline/:splat"
   status = 200
