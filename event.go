@@ -9,7 +9,8 @@ import (
 
 func reqHandler(request events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
 	//var body = `{"commands": [{"type":"com.okta.assertion.patch","value":[{"op":"add","path":"/claims/foo","value":{"attributes":{"NameFormat":"urn:oasis:names:tc:SAML:2.0:attrname-format:basic"},"attributeValues": [{"attributes":{"xsi:type":"xs:string"},"value":"bearer"}]}}]}]}`
-	var body = `{"commands": [{"type":"com.okta.assertion.patch","value":[{"op":"replace","path":"/subject/nameFormat","value":""}]}]}`
+	//var body = `{"commands": [{"type":"com.okta.assertion.patch","value":[{"op":"replace","path":"/subject/nameFormat","value":""}]}]}`
+	var body = `{"commands": [{"type":"com.okta.assertion.patch","value":[{"op":"replace","path":"/subject/nameFormat","value":"CustomGUID"}]}]}`
 	resp := events.APIGatewayProxyResponse{
 		StatusCode:      200,
 		IsBase64Encoded: false,
