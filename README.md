@@ -1,6 +1,6 @@
 # okta-go-inline-hook
 
-This is a sample okta inline saml hook written in golang.  https://developer.okta.com/docs/concepts/inline-hooks/.  
+This is a sample okta inline saml hook written in golang as a aws lambda function.  https://developer.okta.com/docs/concepts/inline-hooks/.  
 
 1) You will need an okta org.  https://developer.okta.com/signup/
 
