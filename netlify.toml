@@ -4,7 +4,7 @@
   publish = "./"
 [build.environment]
   # Change this path with the path to your repository
-  GO_IMPORT_PATH = "github.com/tommycwu/okta-go-event-hook"
+  GO_IMPORT_PATH = "github.com/tommycwu/okta-go-inline-hook"
 [[redirects]]
   from = "/samlhook/*"
   to = "/.netlify/functions/inline/:splat"
